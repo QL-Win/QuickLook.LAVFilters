@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>QuickLook.LAVFilters</id>
-    <version>0.79.2</version>
+    <version>0.79.2-nightly10</version>
     <authors>Nevcairiel</authors>
     <owners>QL-Win</owners>
     <icon>app.png</icon>
@@ -27,6 +27,7 @@
   <file src="..\lib\LAVFilters-x64\LAVSplitter.ax" target="build\LAVFilters-x64\LAVSplitter.ax" />
   <file src="..\lib\LAVFilters-x64\LAVVideo.ax" target="build\LAVFilters-x64\LAVVideo.ax" />
   <file src="..\lib\LAVFilters-x64\libbluray.dll" target="build\LAVFilters-x64\libbluray.dll" />
+  <file src="..\lib\LAVFilters-x64\libmfxsw64.dll" target="build\LAVFilters-x64\libmfxsw64.dll" />
   <file src="..\lib\LAVFilters-x64\swresample-lav-5.dll" target="build\LAVFilters-x64\swresample-lav-5.dll" />
   <file src="..\lib\LAVFilters-x64\swscale-lav-8.dll" target="build\LAVFilters-x64\swscale-lav-8.dll" />
   <file src="..\lib\LAVFilters-x86\avcodec-lav-61.dll" target="build\LAVFilters-x86\avcodec-lav-61.dll" />
@@ -39,6 +40,7 @@
   <file src="..\lib\LAVFilters-x86\LAVSplitter.ax" target="build\LAVFilters-x86\LAVSplitter.ax" />
   <file src="..\lib\LAVFilters-x86\LAVVideo.ax" target="build\LAVFilters-x86\LAVVideo.ax" />
   <file src="..\lib\LAVFilters-x86\libbluray.dll" target="build\LAVFilters-x86\libbluray.dll" />
+  <file src="..\lib\LAVFilters-x86\libmfxsw32.dll" target="build\LAVFilters-x86\libmfxsw32.dll" />
   <file src="..\lib\LAVFilters-x86\swresample-lav-5.dll" target="build\LAVFilters-x86\swresample-lav-5.dll" />
   <file src="..\lib\LAVFilters-x86\swscale-lav-8.dll" target="build\LAVFilters-x86\swscale-lav-8.dll" />
   </files> 
