@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>QuickLook.LAVFilters</id>
-    <version>0.79.2-nightly10</version>
+    <version>0.79.2-nightly20</version>
     <authors>Nevcairiel</authors>
     <owners>QL-Win</owners>
     <icon>app.png</icon>
