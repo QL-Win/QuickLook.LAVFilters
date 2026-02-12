@@ -19,7 +19,7 @@ $dynamicFiles = @()
 
 foreach ($arch in $archs) {
 	$archDir = Join-Path $libRoot $arch
-	$files = Get-ChildItem $archDir -File | Where-Object { ($_.Extension -ne "") -and ($_.Extension -notin @(".bat", ".cmd", ".txt")) }
+	$files = Get-ChildItem $archDir -File | Where-Object { ($_.Extension -ne "") -and ($_.Extension -notin @(".bat", ".cmd", ".txt", ".md")) }
 	foreach ($file in $files) {
 		$src = "..\lib\$arch\$($file.Name)"
 		$target = "build\$arch\$($file.Name)"
@@ -42,7 +42,7 @@ $referenceLines += '<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">'
 $referenceLines += '    <ItemGroup>'
 foreach ($arch in $archs) {
 	$archDir = Join-Path $libRoot $arch
-	$files = Get-ChildItem $archDir -File | Where-Object { ($_.Extension -ne "") -and ($_.Extension -notin @(".bat", ".cmd", ".txt")) }
+	$files = Get-ChildItem $archDir -File | Where-Object { ($_.Extension -ne "") -and ($_.Extension -notin @(".bat", ".cmd", ".txt", ".md")) }
 	foreach ($file in $files) {
 		$include = '$(NuGetPackageRoot)\QuickLook.LAVFilters\' + $nuspecVersion + '\build\' + $arch + '\' + $file.Name
 		$destFolder = '$(OutDir)\' + $arch + '\'

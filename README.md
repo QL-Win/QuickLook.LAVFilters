@@ -19,7 +19,7 @@ For projects that support [PackageReference](https://docs.microsoft.com/nuget/co
 <PackageReference Include="QuickLook.LAVFilters" Version="*" />
 ```
 
-For details on including native files in your `.csproj`, see [Reference.xml](nuget\Reference.xml).
+For details on including native files in your `.csproj`, see [Reference.xml](https://github.com/QL-Win/QuickLook.LAVFilters/blob/master/nuget/Reference.xml).
 
 Compiling
 =============================
