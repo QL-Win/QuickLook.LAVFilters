@@ -11,8 +11,19 @@ from the ffmpeg project, which will allow you to play virtually any format in a 
 
 The filters are still under development, so not every feature is finished, or every format supported.
 
+# Package Reference
+
+For projects that support [PackageReference](https://docs.microsoft.com/nuget/consume-packages/package-references-in-project-files), copy this XML node into the project file to reference the package.
+
+```xml
+<PackageReference Include="QuickLook.LAVFilters" Version="*" />
+```
+
+For details on including native files in your `.csproj`, see [Reference.xml](nuget\Reference.xml).
+
 Compiling
 =============================
+
 Compiling is pretty straightforward using VS2019 (included project files).
 Older versions of Visual Studio are not officially supported, but may still work.
 
