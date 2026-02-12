@@ -28,8 +28,11 @@ foreach ($arch in $archs) {
 
 # Generate new <files> section
 $allFiles = $fixedFiles + $dynamicFiles
-$filesBlock = "  <files>`n" + ($allFiles -join "`n") + "`n  </files>"
 
+$filesBlock = "  <files>`n" + ($allFiles -join "`n") + "`n  </files>"
+Write-Host "==== Generated <files> section ===="
+Write-Host $filesBlock
+Write-Host "==== End of <files> section ===="
 
 # Replace the original <files> block using regex (insert plain text, no extra escaping)
 $newNuspec = [System.Text.RegularExpressions.Regex]::Replace(
