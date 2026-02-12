@@ -20,31 +20,6 @@
             <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
             <Link>LAVFilters-x64\avutil-lav-60.dll</Link>
         </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\CHANGELOG.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
-            <Link>LAVFilters-x64\CHANGELOG.txt</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\COPYING">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
-            <Link>LAVFilters-x64\COPYING</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\install_audio.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
-            <Link>LAVFilters-x64\install_audio.bat</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\install_splitter.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
-            <Link>LAVFilters-x64\install_splitter.bat</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\install_video.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
-            <Link>LAVFilters-x64\install_video.bat</Link>
-        </Content>
         <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\IntelQuickSyncDecoder.dll">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
@@ -75,11 +50,6 @@
             <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
             <Link>LAVFilters-x64\libbluray.dll</Link>
         </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\README.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
-            <Link>LAVFilters-x64\README.txt</Link>
-        </Content>
         <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\swresample-lav-6.dll">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
@@ -89,21 +59,6 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
             <Link>LAVFilters-x64\swscale-lav-9.dll</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\uninstall_audio.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
-            <Link>LAVFilters-x64\uninstall_audio.bat</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\uninstall_splitter.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
-            <Link>LAVFilters-x64\uninstall_splitter.bat</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x64\uninstall_video.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x64\</DestinationFolder>
-            <Link>LAVFilters-x64\uninstall_video.bat</Link>
         </Content>
         <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\avcodec-lav-62.dll">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -124,31 +79,6 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
             <Link>LAVFilters-x86\avutil-lav-60.dll</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\CHANGELOG.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
-            <Link>LAVFilters-x86\CHANGELOG.txt</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\COPYING">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
-            <Link>LAVFilters-x86\COPYING</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\install_audio.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
-            <Link>LAVFilters-x86\install_audio.bat</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\install_splitter.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
-            <Link>LAVFilters-x86\install_splitter.bat</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\install_video.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
-            <Link>LAVFilters-x86\install_video.bat</Link>
         </Content>
         <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\IntelQuickSyncDecoder.dll">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -180,11 +110,6 @@
             <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
             <Link>LAVFilters-x86\libbluray.dll</Link>
         </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\README.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
-            <Link>LAVFilters-x86\README.txt</Link>
-        </Content>
         <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\swresample-lav-6.dll">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
@@ -194,21 +119,6 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
             <Link>LAVFilters-x86\swscale-lav-9.dll</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\uninstall_audio.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
-            <Link>LAVFilters-x86\uninstall_audio.bat</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\uninstall_splitter.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
-            <Link>LAVFilters-x86\uninstall_splitter.bat</Link>
-        </Content>
-        <Content Include="$(NuGetPackageRoot)\QuickLook.LAVFilters\0.80.0\build\LAVFilters-x86\uninstall_video.bat">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <DestinationFolder>$(OutDir)\LAVFilters-x86\</DestinationFolder>
-            <Link>LAVFilters-x86\uninstall_video.bat</Link>
         </Content>
     </ItemGroup>
 </Project>

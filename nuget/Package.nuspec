@@ -24,43 +24,25 @@
     <file src="..\lib\LAVFilters-x64\avfilter-lav-11.dll" target="build\LAVFilters-x64\avfilter-lav-11.dll" />
     <file src="..\lib\LAVFilters-x64\avformat-lav-62.dll" target="build\LAVFilters-x64\avformat-lav-62.dll" />
     <file src="..\lib\LAVFilters-x64\avutil-lav-60.dll" target="build\LAVFilters-x64\avutil-lav-60.dll" />
-    <file src="..\lib\LAVFilters-x64\CHANGELOG.txt" target="build\LAVFilters-x64\CHANGELOG.txt" />
-    <file src="..\lib\LAVFilters-x64\COPYING" target="build\LAVFilters-x64\COPYING" />
-    <file src="..\lib\LAVFilters-x64\install_audio.bat" target="build\LAVFilters-x64\install_audio.bat" />
-    <file src="..\lib\LAVFilters-x64\install_splitter.bat" target="build\LAVFilters-x64\install_splitter.bat" />
-    <file src="..\lib\LAVFilters-x64\install_video.bat" target="build\LAVFilters-x64\install_video.bat" />
     <file src="..\lib\LAVFilters-x64\IntelQuickSyncDecoder.dll" target="build\LAVFilters-x64\IntelQuickSyncDecoder.dll" />
     <file src="..\lib\LAVFilters-x64\LAVAudio.ax" target="build\LAVFilters-x64\LAVAudio.ax" />
     <file src="..\lib\LAVFilters-x64\LAVFilters.Dependencies.manifest" target="build\LAVFilters-x64\LAVFilters.Dependencies.manifest" />
     <file src="..\lib\LAVFilters-x64\LAVSplitter.ax" target="build\LAVFilters-x64\LAVSplitter.ax" />
     <file src="..\lib\LAVFilters-x64\LAVVideo.ax" target="build\LAVFilters-x64\LAVVideo.ax" />
     <file src="..\lib\LAVFilters-x64\libbluray.dll" target="build\LAVFilters-x64\libbluray.dll" />
-    <file src="..\lib\LAVFilters-x64\README.txt" target="build\LAVFilters-x64\README.txt" />
     <file src="..\lib\LAVFilters-x64\swresample-lav-6.dll" target="build\LAVFilters-x64\swresample-lav-6.dll" />
     <file src="..\lib\LAVFilters-x64\swscale-lav-9.dll" target="build\LAVFilters-x64\swscale-lav-9.dll" />
-    <file src="..\lib\LAVFilters-x64\uninstall_audio.bat" target="build\LAVFilters-x64\uninstall_audio.bat" />
-    <file src="..\lib\LAVFilters-x64\uninstall_splitter.bat" target="build\LAVFilters-x64\uninstall_splitter.bat" />
-    <file src="..\lib\LAVFilters-x64\uninstall_video.bat" target="build\LAVFilters-x64\uninstall_video.bat" />
     <file src="..\lib\LAVFilters-x86\avcodec-lav-62.dll" target="build\LAVFilters-x86\avcodec-lav-62.dll" />
     <file src="..\lib\LAVFilters-x86\avfilter-lav-11.dll" target="build\LAVFilters-x86\avfilter-lav-11.dll" />
     <file src="..\lib\LAVFilters-x86\avformat-lav-62.dll" target="build\LAVFilters-x86\avformat-lav-62.dll" />
     <file src="..\lib\LAVFilters-x86\avutil-lav-60.dll" target="build\LAVFilters-x86\avutil-lav-60.dll" />
-    <file src="..\lib\LAVFilters-x86\CHANGELOG.txt" target="build\LAVFilters-x86\CHANGELOG.txt" />
-    <file src="..\lib\LAVFilters-x86\COPYING" target="build\LAVFilters-x86\COPYING" />
-    <file src="..\lib\LAVFilters-x86\install_audio.bat" target="build\LAVFilters-x86\install_audio.bat" />
-    <file src="..\lib\LAVFilters-x86\install_splitter.bat" target="build\LAVFilters-x86\install_splitter.bat" />
-    <file src="..\lib\LAVFilters-x86\install_video.bat" target="build\LAVFilters-x86\install_video.bat" />
     <file src="..\lib\LAVFilters-x86\IntelQuickSyncDecoder.dll" target="build\LAVFilters-x86\IntelQuickSyncDecoder.dll" />
     <file src="..\lib\LAVFilters-x86\LAVAudio.ax" target="build\LAVFilters-x86\LAVAudio.ax" />
     <file src="..\lib\LAVFilters-x86\LAVFilters.Dependencies.manifest" target="build\LAVFilters-x86\LAVFilters.Dependencies.manifest" />
     <file src="..\lib\LAVFilters-x86\LAVSplitter.ax" target="build\LAVFilters-x86\LAVSplitter.ax" />
     <file src="..\lib\LAVFilters-x86\LAVVideo.ax" target="build\LAVFilters-x86\LAVVideo.ax" />
     <file src="..\lib\LAVFilters-x86\libbluray.dll" target="build\LAVFilters-x86\libbluray.dll" />
-    <file src="..\lib\LAVFilters-x86\README.txt" target="build\LAVFilters-x86\README.txt" />
     <file src="..\lib\LAVFilters-x86\swresample-lav-6.dll" target="build\LAVFilters-x86\swresample-lav-6.dll" />
     <file src="..\lib\LAVFilters-x86\swscale-lav-9.dll" target="build\LAVFilters-x86\swscale-lav-9.dll" />
-    <file src="..\lib\LAVFilters-x86\uninstall_audio.bat" target="build\LAVFilters-x86\uninstall_audio.bat" />
-    <file src="..\lib\LAVFilters-x86\uninstall_splitter.bat" target="build\LAVFilters-x86\uninstall_splitter.bat" />
-    <file src="..\lib\LAVFilters-x86\uninstall_video.bat" target="build\LAVFilters-x86\uninstall_video.bat" />
   </files> 
 </package>
