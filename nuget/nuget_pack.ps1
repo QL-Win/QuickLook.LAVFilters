@@ -7,6 +7,7 @@ $nuspecContent = Get-Content $nuspecPath -Raw
 # Keep fixed files entries
 $fixedFiles = @(
 	'    <file src=".\app.png" target="" />',
+	'    <file src="..\README.md" target="README.md" />',
 	'    <file src="..\COPYING" target="COPYING" />',
 	'    <file src="LAVFilters.targets" target="build\QuickLook.LAVFilters.targets" />'
 )

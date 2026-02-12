@@ -11,11 +11,13 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This package is part of QuickLook program. LAV Filters - ffmpeg based DirectShow Splitter and Decoders.</description>
     <releaseNotes>https://github.com/Nevcairiel/LAVFilters/blob/master/CHANGELOG.txt</releaseNotes>
+    <readme>README.md</readme>
     <copyright>Copyright (C) 2024 Hendrik Leppkes</copyright>
     <tags>wpf video directshow lavfilters lav ffmpeg</tags>
    </metadata>
   <files>
     <file src=".\app.png" target="" />
+    <file src="..\README.md" target="README.md" />
     <file src="..\COPYING" target="COPYING" />
     <file src="LAVFilters.targets" target="build\QuickLook.LAVFilters.targets" />
     <file src="..\lib\LAVFilters-x64\avcodec-lav-62.dll" target="build\LAVFilters-x64\avcodec-lav-62.dll" />
