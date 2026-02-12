@@ -34,6 +34,38 @@ Write-Host "==== Generated <files> section ===="
 Write-Host $filesBlock
 Write-Host "==== End of <files> section ===="
 
+# Generate Reference.xml content
+$nuspecVersion = ([regex]::Match($nuspecContent, '<version>(.*?)</version>')).Groups[1].Value
+$referenceLines = @()
+$referenceLines += '<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">'
+$referenceLines += '    <ItemGroup>'
+foreach ($arch in $archs) {
+	$archDir = Join-Path $libRoot $arch
+	$files = Get-ChildItem $archDir -File
+	foreach ($file in $files) {
+		$include = '$(NuGetPackageRoot)\QuickLook.LAVFilters\' + $nuspecVersion + '\build\' + $arch + '\' + $file.Name
+		$destFolder = '$(OutDir)\' + $arch + '\'
+		$link = $arch + '\' + $file.Name
+		$referenceLines += '        <Content Include="' + $include + '">' 
+		$referenceLines += '            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>'
+		$referenceLines += "            <DestinationFolder>$destFolder</DestinationFolder>"
+		$referenceLines += "            <Link>$link</Link>"
+		$referenceLines += '        </Content>'
+	}
+}
+$referenceLines += '    </ItemGroup>'
+$referenceLines += '</Project>'
+$referenceXml = $referenceLines -join "`n"
+
+# Print Reference.xml content
+Write-Host "==== Generated Reference.xml ===="
+Write-Host $referenceXml
+Write-Host "==== End of Reference.xml ===="
+
+# Write Reference.xml
+$referencePath = Join-Path $PSScriptRoot 'Reference.xml'
+[System.IO.File]::WriteAllText($referencePath, $referenceXml)
+
 # Replace the original <files> block using regex (insert plain text, no extra escaping)
 $newNuspec = [System.Text.RegularExpressions.Regex]::Replace(
 	$nuspecContent,
